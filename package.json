@@ -26,17 +26,18 @@
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "build:watch": "tsc --project tsconfig.json --watch",
-    "prepublishOnly": "npm install && npm run build"
+    "prepublishOnly": "npm install && npm run build",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "minimist": "^1.2.8",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2",
-    "xml2js": "^0.4.23"
-  },
-  "devDependencies": {
+    "xml2js": "^0.4.23",
     "@types/minimist": "^1.2.2",
     "@types/node": "^18.15.10",
     "@types/xml2js": "^0.4.8"
+  },
+  "devDependencies": {
   }
 }
