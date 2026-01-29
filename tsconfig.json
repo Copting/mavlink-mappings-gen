@@ -2,6 +2,7 @@
   "include": [
     "cli.ts",
     "index.ts",
+    "generator/*"
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
